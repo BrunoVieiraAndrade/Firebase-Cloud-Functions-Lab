@@ -1,0 +1,140 @@
+[debug] [2017-11-28T19:32:58.216Z] ----------------------------------------------------------------------
+[debug] [2017-11-28T19:32:58.219Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\bruno.andrade\AppData\Roaming\npm\node_modules\firebase-tools\bin\firebase serve
+[debug] [2017-11-28T19:32:58.219Z] CLI Version:   3.15.3
+[debug] [2017-11-28T19:32:58.219Z] Platform:      win32
+[debug] [2017-11-28T19:32:58.219Z] Node Version:  v8.1.1
+[debug] [2017-11-28T19:32:58.221Z] Time:          Tue Nov 28 2017 17:32:58 GMT-0200 (Horário brasileiro de verão)
+[debug] [2017-11-28T19:32:58.221Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2017-11-28T19:32:58.238Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2017-11-28T19:32:58.238Z] > authorizing via signed-in user
+[debug] [2017-11-28T19:32:58.241Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/tabajaras-c8c67  
+ Tue Nov 28 2017 17:32:58 GMT-0200 (Horário brasileiro de verão)
+[debug] [2017-11-28T19:32:59.256Z] <<< HTTP RESPONSE 200
+[debug] [2017-11-28T19:32:59.258Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/database/tabajaras-c8c67/tokens  
+ Tue Nov 28 2017 17:32:59 GMT-0200 (Horário brasileiro de verão)
+[debug] [2017-11-28T19:33:00.007Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Serving from 'C:\Labs\Cloud Functions'...
+[info] 
+[debug] [2017-11-28T19:33:00.939Z] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/tabajaras-c8c67  
+ Tue Nov 28 2017 17:33:00 GMT-0200 (Horário brasileiro de verão)
+[debug] [2017-11-28T19:33:02.291Z] <<< HTTP RESPONSE 200
+[debug] [2017-11-28T19:33:02.292Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/763892422526/clients/_:getWebAppConfig  
+ Tue Nov 28 2017 17:33:02 GMT-0200 (Horário brasileiro de verão)
+[debug] [2017-11-28T19:33:03.478Z] <<< HTTP RESPONSE 200
+[debug] [2017-11-28T19:33:03.515Z] TypeError: Cannot read property 'public' of undefined
+    at Server.<anonymous> (C:\Users\bruno.andrade\AppData\Roaming\npm\node_modules\firebase-tools\lib\serve\hosting.js:34:17)
+    at Object.onceWrapper (events.js:314:30)
+    at emitNone (events.js:105:13)
+    at Server.emit (events.js:207:7)
+    at emitListeningNT (net.js:1334:10)
+    at _combinedTickCallback (internal/process/next_tick.js:99:11)
+    at process._tickDomainCallback (internal/process/next_tick.js:198:9)
+[error] 
+[error] Error: An unexpected error has occurred.
+[debug] [2017-11-28T19:33:09.790Z] ----------------------------------------------------------------------
+[debug] [2017-11-28T19:33:09.793Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\bruno.andrade\AppData\Roaming\npm\node_modules\firebase-tools\bin\firebase serve
+[debug] [2017-11-28T19:33:09.793Z] CLI Version:   3.15.3
+[debug] [2017-11-28T19:33:09.793Z] Platform:      win32
+[debug] [2017-11-28T19:33:09.793Z] Node Version:  v8.1.1
+[debug] [2017-11-28T19:33:09.795Z] Time:          Tue Nov 28 2017 17:33:09 GMT-0200 (Horário brasileiro de verão)
+[debug] [2017-11-28T19:33:09.795Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2017-11-28T19:33:09.811Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2017-11-28T19:33:09.812Z] > authorizing via signed-in user
+[debug] [2017-11-28T19:33:09.815Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/tabajaras-c8c67  
+ Tue Nov 28 2017 17:33:09 GMT-0200 (Horário brasileiro de verão)
+[debug] [2017-11-28T19:33:10.803Z] <<< HTTP RESPONSE 200
+[debug] [2017-11-28T19:33:10.804Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/database/tabajaras-c8c67/tokens  
+ Tue Nov 28 2017 17:33:10 GMT-0200 (Horário brasileiro de verão)
+[debug] [2017-11-28T19:33:11.651Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Serving from 'C:\Labs\Cloud Functions'...
+[info] 
+[debug] [2017-11-28T19:33:11.655Z] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/tabajaras-c8c67  
+ Tue Nov 28 2017 17:33:11 GMT-0200 (Horário brasileiro de verão)
+[debug] [2017-11-28T19:33:12.698Z] <<< HTTP RESPONSE 200
+[debug] [2017-11-28T19:33:12.699Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/763892422526/clients/_:getWebAppConfig  
+ Tue Nov 28 2017 17:33:12 GMT-0200 (Horário brasileiro de verão)
+[debug] [2017-11-28T19:33:13.630Z] <<< HTTP RESPONSE 200
+[debug] [2017-11-28T19:33:13.655Z] TypeError: Cannot read property 'public' of undefined
+    at Server.<anonymous> (C:\Users\bruno.andrade\AppData\Roaming\npm\node_modules\firebase-tools\lib\serve\hosting.js:34:17)
+    at Object.onceWrapper (events.js:314:30)
+    at emitNone (events.js:105:13)
+    at Server.emit (events.js:207:7)
+    at emitListeningNT (net.js:1334:10)
+    at _combinedTickCallback (internal/process/next_tick.js:99:11)
+    at process._tickDomainCallback (internal/process/next_tick.js:198:9)
+[error] 
+[error] Error: An unexpected error has occurred.
+[debug] [2017-11-28T19:34:01.813Z] ----------------------------------------------------------------------
+[debug] [2017-11-28T19:34:01.816Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\bruno.andrade\AppData\Roaming\npm\node_modules\firebase-tools\bin\firebase deploy
+[debug] [2017-11-28T19:34:01.817Z] CLI Version:   3.15.3
+[debug] [2017-11-28T19:34:01.817Z] Platform:      win32
+[debug] [2017-11-28T19:34:01.817Z] Node Version:  v8.1.1
+[debug] [2017-11-28T19:34:01.818Z] Time:          Tue Nov 28 2017 17:34:01 GMT-0200 (Horário brasileiro de verão)
+[debug] [2017-11-28T19:34:01.818Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2017-11-28T19:34:01.837Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2017-11-28T19:34:01.838Z] > authorizing via signed-in user
+[debug] [2017-11-28T19:34:01.842Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/tabajaras-c8c67  
+ Tue Nov 28 2017 17:34:01 GMT-0200 (Horário brasileiro de verão)
+[debug] [2017-11-28T19:34:02.846Z] <<< HTTP RESPONSE 200
+[debug] [2017-11-28T19:34:02.847Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/database/tabajaras-c8c67/tokens  
+ Tue Nov 28 2017 17:34:02 GMT-0200 (Horário brasileiro de verão)
+[debug] [2017-11-28T19:34:03.779Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Deploying to 'tabajaras-c8c67'...
+[info] 
+[info] i  deploying firestore, functions
+[info] i  firestore: checking firestore.rules for compilation errors...
+[debug] [2017-11-28T19:34:05.452Z] >>> HTTP REQUEST POST https://firebaserules.googleapis.com/v1/projects/tabajaras-c8c67:test { source: { files: [ [Object] ] } } 
+ Tue Nov 28 2017 17:34:05 GMT-0200 (Horário brasileiro de verão)
+[debug] [2017-11-28T19:34:07.179Z] <<< HTTP RESPONSE 200
+[info] +  firestore: rules file firestore.rules compiled successfully
+[debug] [2017-11-28T19:34:07.182Z] > [functions] package.json contents: {
+  "name": "functions",
+  "description": "Cloud Functions for Firebase",
+  "scripts": {
+    "serve": "firebase serve --only functions",
+    "shell": "firebase experimental:functions:shell",
+    "start": "npm run shell",
+    "deploy": "firebase deploy --only functions",
+    "logs": "firebase functions:log"
+  },
+  "dependencies": {
+    "express": "^4.16.2",
+    "firebase-admin": "~5.4.2",
+    "firebase-functions": "^0.7.1"
+  },
+  "private": true
+}
+[info] i  functions: ensuring necessary APIs are enabled...
+[info] i  runtimeconfig: ensuring necessary APIs are enabled...
+[debug] [2017-11-28T19:34:07.184Z] >>> HTTP REQUEST GET https://servicemanagement.googleapis.com/v1/services/cloudfunctions.googleapis.com/projectSettings/tabajaras-c8c67?view=CONSUMER_VIEW  
+ Tue Nov 28 2017 17:34:07 GMT-0200 (Horário brasileiro de verão)
+[debug] [2017-11-28T19:34:07.184Z] >>> HTTP REQUEST GET https://servicemanagement.googleapis.com/v1/services/runtimeconfig.googleapis.com/projectSettings/tabajaras-c8c67?view=CONSUMER_VIEW  
+ Tue Nov 28 2017 17:34:07 GMT-0200 (Horário brasileiro de verão)
+[debug] [2017-11-28T19:34:08.177Z] <<< HTTP RESPONSE 200
+[info] +  runtimeconfig: all necessary APIs are enabled
+[debug] [2017-11-28T19:34:08.784Z] <<< HTTP RESPONSE 200
+[info] +  functions: all necessary APIs are enabled
+[debug] [2017-11-28T19:34:08.785Z] >>> HTTP REQUEST GET https://appengine.googleapis.com/v1/apps/tabajaras-c8c67  
+ Tue Nov 28 2017 17:34:08 GMT-0200 (Horário brasileiro de verão)
+[debug] [2017-11-28T19:34:08.786Z] >>> HTTP REQUEST GET https://apikeys.googleapis.com/v1/projects/tabajaras-c8c67/apiKeys  
+ Tue Nov 28 2017 17:34:08 GMT-0200 (Horário brasileiro de verão)
+[debug] [2017-11-28T19:34:10.191Z] <<< HTTP RESPONSE 200
+[debug] [2017-11-28T19:34:10.436Z] <<< HTTP RESPONSE 200
+[info] i  firestore: uploading rules firestore.rules...
+[debug] [2017-11-28T19:34:10.438Z] >>> HTTP REQUEST POST https://firebaserules.googleapis.com/v1/projects/tabajaras-c8c67/rulesets { source: { files: [ [Object] ] } } 
+ Tue Nov 28 2017 17:34:10 GMT-0200 (Horário brasileiro de verão)
+[debug] [2017-11-28T19:34:10.438Z] >>> HTTP REQUEST GET https://firestore.googleapis.com/v1beta1/projects/tabajaras-c8c67/databases/(default)/indexes  
+ Tue Nov 28 2017 17:34:10 GMT-0200 (Horário brasileiro de verão)
+[debug] [2017-11-28T19:34:11.680Z] <<< HTTP RESPONSE 200
+[debug] [2017-11-28T19:34:11.680Z] [rules] created ruleset projects/tabajaras-c8c67/rulesets/178ed5b3-ce81-406c-99ac-8fe0daf36a3c
+[debug] [2017-11-28T19:34:12.034Z] <<< HTTP RESPONSE 200
+[info] i  functions: preparing functions directory for uploading...
+[debug] [2017-11-28T19:34:45.787Z] >>> HTTP REQUEST GET https://runtimeconfig.googleapis.com/v1beta1/projects/tabajaras-c8c67/configs  
+ Tue Nov 28 2017 17:34:45 GMT-0200 (Horário brasileiro de verão)
+[debug] [2017-11-28T19:34:46.718Z] <<< HTTP RESPONSE 200
